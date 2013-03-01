@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ABA1B2D15C4494C0044A533 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA1B2C15C4494C0044A533 /* Cocoa.framework */; };
+		8ABA1B3715C4494C0044A533 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ABA1B3515C4494C0044A533 /* InfoPlist.strings */; };
+		8ABA1B3915C4494C0044A533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA1B3815C4494C0044A533 /* main.m */; };
+		8ABA1B3D15C4494C0044A533 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8ABA1B3B15C4494C0044A533 /* Credits.rtf */; };
+		8ABA1B4015C4494C0044A533 /* MDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA1B3F15C4494C0044A533 /* MDBAppDelegate.m */; };
+		8ABA1B4315C4494C0044A533 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABA1B4115C4494C0044A533 /* MainMenu.xib */; };
+		8ABA1B4F15C449900044A533 /* NIDAQX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA1B4E15C449900044A533 /* NIDAQX.m */; };
+		8ABA1B6F15C449AD0044A533 /* Oscilloscope3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA1B6315C449AD0044A533 /* Oscilloscope3.m */; };
+		8ACE79F315C52A7000B43B84 /* nidaqmxbase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACE79F215C52A7000B43B84 /* nidaqmxbase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ABA1B2815C4494C0044A533 /* NIDAQ-Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIDAQ-Test2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABA1B2C15C4494C0044A533 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8ABA1B2F15C4494C0044A533 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8ABA1B3015C4494C0044A533 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8ABA1B3115C4494C0044A533 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8ABA1B3415C4494C0044A533 /* NIDAQ-Test2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NIDAQ-Test2-Info.plist"; sourceTree = "<group>"; };
+		8ABA1B3615C4494C0044A533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ABA1B3815C4494C0044A533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ABA1B3A15C4494C0044A533 /* NIDAQ-Test2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NIDAQ-Test2-Prefix.pch"; sourceTree = "<group>"; };
+		8ABA1B3C15C4494C0044A533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8ABA1B3E15C4494C0044A533 /* MDBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBAppDelegate.h; sourceTree = "<group>"; };
+		8ABA1B3F15C4494C0044A533 /* MDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDBAppDelegate.m; sourceTree = "<group>"; };
+		8ABA1B4215C4494C0044A533 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8ABA1B4C15C449900044A533 /* NIDAQmxBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIDAQmxBase.h; path = ../../NIDAQmxBase.h; sourceTree = "<group>"; };
+		8ABA1B4D15C449900044A533 /* NIDAQX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIDAQX.h; path = ../../NIDAQX.h; sourceTree = "<group>"; };
+		8ABA1B4E15C449900044A533 /* NIDAQX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIDAQX.m; path = ../../NIDAQX.m; sourceTree = "<group>"; };
+		8ABA1B6215C449AD0044A533 /* Oscilloscope3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oscilloscope3.h; sourceTree = "<group>"; };
+		8ABA1B6315C449AD0044A533 /* Oscilloscope3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Oscilloscope3.m; sourceTree = "<group>"; };
+		8ACE79F215C52A7000B43B84 /* nidaqmxbase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nidaqmxbase.framework; path = ../../../../../../../../../Library/Frameworks/nidaqmxbase.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ABA1B2515C4494C0044A533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABA1B2D15C4494C0044A533 /* Cocoa.framework in Frameworks */,
+				8ACE79F315C52A7000B43B84 /* nidaqmxbase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ABA1B1D15C4494C0044A533 = {
+			isa = PBXGroup;
+			children = (
+				8ABA1B3215C4494C0044A533 /* NIDAQ-Test2 */,
+				8ABA1B2B15C4494C0044A533 /* Frameworks */,
+				8ABA1B2915C4494C0044A533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ABA1B2915C4494C0044A533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ABA1B2815C4494C0044A533 /* NIDAQ-Test2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ABA1B2B15C4494C0044A533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ABA1B2C15C4494C0044A533 /* Cocoa.framework */,
+				8ABA1B2E15C4494C0044A533 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ABA1B2E15C4494C0044A533 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ACE79F215C52A7000B43B84 /* nidaqmxbase.framework */,
+				8ABA1B2F15C4494C0044A533 /* AppKit.framework */,
+				8ABA1B3015C4494C0044A533 /* CoreData.framework */,
+				8ABA1B3115C4494C0044A533 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8ABA1B3215C4494C0044A533 /* NIDAQ-Test2 */ = {
+			isa = PBXGroup;
+			children = (
+				8ABA1B5015C449AD0044A533 /* Oscilloscope3 */,
+				8ABA1B4C15C449900044A533 /* NIDAQmxBase.h */,
+				8ABA1B4D15C449900044A533 /* NIDAQX.h */,
+				8ABA1B4E15C449900044A533 /* NIDAQX.m */,
+				8ABA1B3E15C4494C0044A533 /* MDBAppDelegate.h */,
+				8ABA1B3F15C4494C0044A533 /* MDBAppDelegate.m */,
+				8ABA1B4115C4494C0044A533 /* MainMenu.xib */,
+				8ABA1B3315C4494C0044A533 /* Supporting Files */,
+			);
+			path = "NIDAQ-Test2";
+			sourceTree = "<group>";
+		};
+		8ABA1B3315C4494C0044A533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ABA1B3415C4494C0044A533 /* NIDAQ-Test2-Info.plist */,
+				8ABA1B3515C4494C0044A533 /* InfoPlist.strings */,
+				8ABA1B3815C4494C0044A533 /* main.m */,
+				8ABA1B3A15C4494C0044A533 /* NIDAQ-Test2-Prefix.pch */,
+				8ABA1B3B15C4494C0044A533 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ABA1B5015C449AD0044A533 /* Oscilloscope3 */ = {
+			isa = PBXGroup;
+			children = (
+				8ABA1B6215C449AD0044A533 /* Oscilloscope3.h */,
+				8ABA1B6315C449AD0044A533 /* Oscilloscope3.m */,
+			);
+			name = Oscilloscope3;
+			path = ../../../Oscilloscope3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ABA1B2715C4494C0044A533 /* NIDAQ-Test2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ABA1B4615C4494C0044A533 /* Build configuration list for PBXNativeTarget "NIDAQ-Test2" */;
+			buildPhases = (
+				8ABA1B2415C4494C0044A533 /* Sources */,
+				8ABA1B2515C4494C0044A533 /* Frameworks */,
+				8ABA1B2615C4494C0044A533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NIDAQ-Test2";
+			productName = "NIDAQ-Test2";
+			productReference = 8ABA1B2815C4494C0044A533 /* NIDAQ-Test2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ABA1B1F15C4494C0044A533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MDB;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Bach;
+			};
+			buildConfigurationList = 8ABA1B2215C4494C0044A533 /* Build configuration list for PBXProject "NIDAQ-Test2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8ABA1B1D15C4494C0044A533;
+			productRefGroup = 8ABA1B2915C4494C0044A533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ABA1B2715C4494C0044A533 /* NIDAQ-Test2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ABA1B2615C4494C0044A533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABA1B3715C4494C0044A533 /* InfoPlist.strings in Resources */,
+				8ABA1B3D15C4494C0044A533 /* Credits.rtf in Resources */,
+				8ABA1B4315C4494C0044A533 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ABA1B2415C4494C0044A533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABA1B3915C4494C0044A533 /* main.m in Sources */,
+				8ABA1B4015C4494C0044A533 /* MDBAppDelegate.m in Sources */,
+				8ABA1B4F15C449900044A533 /* NIDAQX.m in Sources */,
+				8ABA1B6F15C449AD0044A533 /* Oscilloscope3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ABA1B3515C4494C0044A533 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ABA1B3615C4494C0044A533 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8ABA1B3B15C4494C0044A533 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ABA1B3C15C4494C0044A533 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8ABA1B4115C4494C0044A533 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ABA1B4215C4494C0044A533 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ABA1B4415C4494C0044A533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.8;
+			};
+			name = Debug;
+		};
+		8ABA1B4515C4494C0044A533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx10.8;
+			};
+			name = Release;
+		};
+		8ABA1B4715C4494C0044A533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NIDAQ-Test2/NIDAQ-Test2-Prefix.pch";
+				INFOPLIST_FILE = "NIDAQ-Test2/NIDAQ-Test2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8ABA1B4815C4494C0044A533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NIDAQ-Test2/NIDAQ-Test2-Prefix.pch";
+				INFOPLIST_FILE = "NIDAQ-Test2/NIDAQ-Test2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ABA1B2215C4494C0044A533 /* Build configuration list for PBXProject "NIDAQ-Test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABA1B4415C4494C0044A533 /* Debug */,
+				8ABA1B4515C4494C0044A533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ABA1B4615C4494C0044A533 /* Build configuration list for PBXNativeTarget "NIDAQ-Test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABA1B4715C4494C0044A533 /* Debug */,
+				8ABA1B4815C4494C0044A533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ABA1B1F15C4494C0044A533 /* Project object */;
+}
